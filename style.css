@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url(https://png.pngtree.com/background/20240413/original/pngtree-portfolio-displays-and-mobile-apps-with-3d-shapes-chat-messages-and-picture-image_8471028.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    align-items: center;
+
+}
+
+.header h1{
+
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header .navbar ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.header .navbar a{
+
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header .navbar a:hover{
+
+    color: rgb(217, 23, 217);
+
+}
+
+.header .btn button{
+
+    color: black;
+    background-color: yellow;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    width: 120px;
+    padding: 0 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+.header .btn button:hover{
+    background-color: rgb(43, 255, 43);
+}
+
+.maindiv{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+
+}
+
+.maindiv h1{
+
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 15px;
+
+}
+
+.maindiv span{
+
+    color: yellow;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.maindiv p{
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px;
+}
+.maindiv button{
+
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    width: 160px;
+    padding: 5px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+}
+
+ .maindiv button:hover{
+    background-color:rgb(217, 23, 217);
+}
+
+
+
+
+
+@media (max-width:767px){
+
+    .header{
+
+        background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+    align-items: center;
+    }
+
+
+    body{
+
+        background-color: black;
+    }
+
+    .header h1{
+
+        color: yellow;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    .header .navbar ul{
+
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    
+    }
+    
+    .header .navbar a{
+
+        color: white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    
+    .header .btn button{
+
+        color: black;
+        background-color: yellow;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid yellow;
+        border-radius: 15px;
+        width: 100px;
+        padding: 0 5px;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-weight: bold;
+        align-items: center;
+    }
+
+    .maindiv h1{
+
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0px 5px;
+    
+    }
+    
+    .maindiv span{
+    
+        color: yellow;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        padding: 0px 5px;
+    }
+    
+    .maindiv p{
+    
+        color:white;
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 200;
+        padding: 0px 5px;
+    }
+    .maindiv button{
+    
+        color: black;
+        background-color: yellow;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 3px solid yellow;
+        border-radius: 15px;
+        width: 120px;
+        padding: 5px 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+        
+    }
+
+    .maindiv{
+
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 30px;
+    
+    }
+
+    body{
+
+        background-image: url(https://e0.pxfuel.com/wallpapers/475/184/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 767px;
+        height: 900px;
+
+    }
+
+    .header .navbar a:hover{
+
+        color: red;
+    
+
+}
+.maindiv{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+
+}
+
+}
